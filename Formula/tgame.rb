@@ -2,6 +2,7 @@ class Tgame < Formula
   desc "A Terminal game collection"
   homepage "https://github.com/kongtaoxing/terminal-games"
   license "MIT"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?

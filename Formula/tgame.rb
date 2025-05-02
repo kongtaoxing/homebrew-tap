@@ -2,12 +2,12 @@ class Tgame < Formula
   desc "A Terminal game collection"
   homepage "https://github.com/kongtaoxing/terminal-games"
   license "MIT"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kongtaoxing/terminal-games/releases/download/v0.3.0/tgame-macos-arm64.tar.gz"
-      sha256 "e39d4565bb5ede6aa016755d0e24d3f3de03023584eb08f0698ce7de53de67f7"
+      url "https://github.com/kongtaoxing/terminal-games/releases/download/v0.3.1/tgame-macos-arm64.tar.gz"
+      sha256 "d1d554975c8d86e7a5c66fad40a61ed756f71d01717f25febff67aa00fe3863c"
     else
       url "https://github.com/kongtaoxing/terminal-games/releases/download/v0.3.0/tgame-macos-x86_64.tar.gz"
       sha256 "29458fe04996dabec8a4575a803a5c3ce6be728a2d9d8d49f497b12b83d6f577"

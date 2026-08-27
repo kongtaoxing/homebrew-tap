@@ -2,18 +2,18 @@
 
 Homebrew tap for kongtaoxing's projects.
 
-## termmd
+## termd
 
 Install the Apple Silicon build:
 
 ```bash
 brew tap kongtaoxing/tap
-brew install termmd
+brew install termd
 ```
 
 Print terminal integration settings without repository-specific paths:
 
 ```bash
-termmd ghostty-config
-termmd vscode-config
+termd ghostty-config
+termd vscode-config
 ```

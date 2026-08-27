@@ -1,10 +1,10 @@
 class Termmd < Formula
   desc "Render Markdown and LaTeX formulas in modern terminals"
   homepage "https://github.com/kongtaoxing/homebrew-tap"
-  url "https://raw.githubusercontent.com/kongtaoxing/homebrew-tap/main/Artifacts/termmd-0.2.2-macos-arm64.tar.gz"
-  mirror "file://#{File.expand_path("../Artifacts/termmd-0.2.2-macos-arm64.tar.gz", __dir__)}"
-  sha256 "78dfb891325ff424db329a8b18364200ce216bbbff60e25cdef0e29307bdfa42"
-  version "0.2.2"
+  url "https://raw.githubusercontent.com/kongtaoxing/homebrew-tap/main/Artifacts/termmd-0.2.3-macos-arm64.tar.gz"
+  mirror "file://#{File.expand_path("../Artifacts/termmd-0.2.3-macos-arm64.tar.gz", __dir__)}"
+  sha256 "530e6d2e7de372728c5ddd67297ba1910fec6df5ee661e557a8de5baba5ecd06"
+  version "0.2.3"
   license "MIT"
 
   depends_on :macos
@@ -26,7 +26,7 @@ class Termmd < Formula
   end
 
   test do
-    assert_match "termmd 0.2.2", shell_output("#{bin}/termmd --version")
+    assert_match "termmd 0.2.3", shell_output("#{bin}/termmd --version")
     assert_match "command = direct:termmd ghostty", shell_output("#{bin}/termmd ghostty-config")
     assert_match '"path": "termmd"', shell_output("#{bin}/termmd vscode-config")
   end
